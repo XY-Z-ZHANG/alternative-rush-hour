@@ -8,7 +8,7 @@ This project is constructed using R programming language with few necessary pack
 This is also a part of my major project towards a master’s degree at Goldsmiths, University of London. 
 
 # Visuals
-Current public version of this project is an interactive map web application fully running on a remote R server client using shiny package and hosting on a remote server, which you can access at [this link](https://alternative-rush-hour.theportfolioof.xyz).
+Current public version of this project is an interactive map web application fully running on a remote R server client using shiny package and hosting on a remote server, which you can access at [this link](https://alternative-rush-hour.xuanyizhang.com/). Please allow a few seconds to one minute to load the data.
 
 ![the interface of the web application](images/Interface-of-the-web-application.png)
 
