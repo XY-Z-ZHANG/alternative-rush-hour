@@ -59,13 +59,25 @@ At the current stage, with current layers, this project's findings are universal
 3. As for the correlations, it is clear in the comparison between multiple layers that when an area has more night bus stops, the residents there tend to have less income, and the property prices tend to be lower than in other areas without night bus stations. Besides, when viewing the LSOA level, the lines constructed by a sequence of night bus stations tend to overlap with the lines connected by adjacent areas with high income deprivations.
 
 # Roadmap
-The planned future development of this project includes:
+**Version 1.5**
 
-1. **Change how the project is presented**. Move from the R server client to a scrolling and animating website that hybridises interactive maps, explanatory texts, concise images, and engaging interactions. This will create a linear yet more focused, informative, and inclusive narrative.
-2. **Add more layers**. This includes 1) the amount of money a company has paid to buy or rent the place in central London, compared to the amount of money the company has paid to its night shift workers. 2) The demographic data about LSOAs, compared with the deprivation index and the density of night bus services.
-3. **Open to more people**. Sort current R scripts and rewrite them into one R markdown file with clear instructions so that users without prior knowledge of R can run, test, and understand the scenes in front of and behind the project. 
+Based on current integrated datasets and layers, creating a report featuring texts and static data visualisation images to explain the findings in greater and persuasive detail.
+
+**Version 2.0**
+
+Integrate more datasets into the project and create an interactive dashboard using industry-standard tools such as Microsoft Power BI or Tableau.
+Planned additional databases include:
+1. Demographic datasets: ethnic groups in each London LSOA; education levels in each LSOA; occupations and job types of smaller areas in London, at LSOA level if possible.
+2. Bus datasets: The passenger flow for each night bus route, time specific if possible.
+3. Company datasets: How much money does a company pay to their offices in Central London (or how much it costs to rent/buy an office space in London), and how much money does a night worker usually get paid.
+
+**Version 3.0**
+
+Migrate the interactive map in version 1.0 to a linear interactive webpage, combining maps, explanatory texts, and images for better readability and narrative. Example: [Exploring local income deprivation](https://www.ons.gov.uk/visualisations/dvc1371/#/E07000223)
+Find a way to make this project as open and accessible as possible so that people without prior programming knowledge can enquire about similar situations for their living places.
 
 # References
+As of the first version
 1.	[data about night bus stations](https://api-portal.tfl.gov.uk/api-details#api=Line&operation=Line_RouteSequenceByPathIdPathDirectionQueryServiceTypesQueryExcludeCrowding);
 2.	[HM Land Registry datasets](https://use-land-property-data.service.gov.uk/);
 3.	[Ordnance Survey datasets](https://osdatahub.os.uk/downloads/open);
